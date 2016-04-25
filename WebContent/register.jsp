@@ -7,9 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-Index Seite!<br>
-<br>
-<a href="login.jsp">Login</a>
-<a href="register.jsp">Register</a>
+<form method="post" action="register-check.jsp">
+	<input type="text" name="name" value="">
+	<input type="text" name="surname" value="">
+	<input type="text" name="username" value="">
+	<input type="password" name="password" value="">
+	<input type="text" name="email" value="">
+	<input type="submit" value="Login">
+</form>
 </body>
 </html>

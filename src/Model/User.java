@@ -8,20 +8,18 @@ public class User {
 	private String password;
 	private String email;
 	
-
-	
 	
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String value) {
+		this.name = value;
 	}
 	public String getSurname() {
 		return surname;
 	}
-	public void setSurname(String surname) {
-		this.surname = surname;
+	public void setSurname(String value) {
+		this.surname = value;
 	}
 	public String getUsername() {
 		return username;
@@ -32,14 +30,14 @@ public class User {
 	public String getPassword() {
 		return password;
 	}
-	public void setPassword(String password) {
-		this.password = password;
+	public void setPassword(String value) {
+		this.password = value;
 	}
 	public String getEmail() {
 		return email;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmail(String value) {
+		this.email = value;
 	}
 	
 	
